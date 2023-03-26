@@ -1,0 +1,83 @@
+
+/*Contacto*/
+
+.formcontato {
+    background: var(--color-celeste);
+}
+
+.formcontato__contacto {
+    display: flex;
+    width: 82%;
+    margin: 0 auto;
+    padding: 6rem 0;
+    justify-content: center;
+}
+
+.formcontato__title {
+    margin: 0;
+}
+
+.formcontato__text {
+    margin-left: 1rem;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* BOTON */
+.formcontato__group {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.formcontato__input {
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 2.15rem;
+    width: 100%;
+}
+
+.formcontato__label {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.5rem;
+    font-size: 13px;
+    transition: all 0.25s;
+}
+
+.formcontato__input:focus~.formcontato__label,
+.formcontato__input:not(:placeholder-shown)~.formcontato__label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
+
+
+.formcontato__input:focus::placeholder,
+.formcontato__input:not(:placeholder-shown)::placeholder {
+    visibility: hidden;
+}
+
+.formcontato__textarea {
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 1.375rem 0.5rem 0.5rem;
+    width: 100%;
+    resize: none;
+    height: 7rem;
+}
+
+/* FALTA CORREGIR EL INPUT */
+
+
+.formcontato__botao {
+    background: var(--color-azul);
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    color: #FFFFFF;
+}

@@ -1,0 +1,71 @@
+
+/* Seccion Skills */
+
+section.skills {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.skills__title {
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 22px;
+    color: #464646;
+    margin-bottom: 2rem;
+
+}
+
+section.skills .skills__line {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skills__box {
+    background-color: #FFFFFF;
+    width: 10rem;
+    height: 10rem;
+    margin : 0 2%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 0.4px 0.4px 0.7px darkgray;
+    transition: background-color 0.7s ease-out;
+}
+
+.skills__box:hover {
+    box-shadow: 8px 8px 10px darkgrey;
+    transition: 0.7s;
+
+}
+.html:hover{
+    background-color: #f06529    ;
+    
+}
+.js:hover{
+    background-color: #f0db4f    ;
+}
+.vue:hover{
+    background-color:#3bb08f    ;
+}
+.node:hover{
+    background-color: #68a063;
+}
+.css:hover{
+    background-color: #264de4;
+}
+.react:hover{
+    background-color: #5cc7e6
+    ;
+}
+.skills__img {
+    margin-bottom: 0.5rem;
+    margin-right: 0.9rem;
+}
+
+.skills__name {
+    text-align: center;
+    padding-right: 1.07rem;
+}

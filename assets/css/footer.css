@@ -1,0 +1,20 @@
+
+/*footeer*/
+
+section.footer {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    color: whitesmoke;
+}
+
+.footer p {
+    margin: 0.5rem;
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+}

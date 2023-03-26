@@ -1,0 +1,27 @@
+/*Sección About*/
+
+section.about {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 152px;
+    padding-top: 118px;
+    padding-bottom: 132px;
+
+
+
+    /* Azul/10% */
+
+    background: var(--color-celeste);
+
+
+}
+
+section.about .about__title {
+    font-size: 32px;
+}
+
+section.about .about__paragraph {
+    font-size: 16px;
+    /* width: 902px; */
+    padding-right: 25%;
+}

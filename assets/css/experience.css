@@ -1,0 +1,41 @@
+
+/* experiencia*/
+
+section.experience {
+    width: 82%;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.experience__section__title {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.experiencie__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.experience__info {
+    margin: 0 1.55rem;
+    ;
+}
+
+.experiencia__botao--repo {
+    width: 6rem;
+    height: 3rem;
+    border-color: var(--color-azul);
+    background: none;
+    color: var(--color-azul);
+}
+
+.experience__botao--demo {
+    background: var(--color-azul);
+    border: none;
+    width: 6rem;
+    height: 3rem;
+    color: #FFFFFF;
+}

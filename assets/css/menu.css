@@ -1,0 +1,50 @@
+/*Sección Menu*/
+/* Esto es el toolbar */
+section.menu {
+    padding-top: 6px;
+    display: flex;
+    /* Espacio entre el menú y el logo */
+    justify-content: space-around;
+    align-items: start;
+    position: fixed;
+    width: 100%;
+    background-color: var(--cor-de-fundo);
+    z-index: 1;
+    margin-top: 0;
+    background-color: #000;
+    color: whitesmoke;
+}
+
+
+.menu a {
+    color: whitesmoke;
+}
+
+section.menu .menu__list {
+    display: flex;
+
+
+}
+
+section.menu .menu__list__item {
+    padding: 0 10px;
+
+}
+
+section.menu .menu__list__item :hover {
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: .5s;
+    background-color: black;
+    border-radius: 15px;
+
+    box-shadow: 2px 4px 12px darkgrey;
+}
+
+/* Esto es el logo */
+section.menu .menu__header {
+    display: flex;
+    align-items: center;
+}
+
+
