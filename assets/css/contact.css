@@ -81,3 +81,27 @@
     height: 3rem;
     color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 1280px) {
+    .formcontato__contacto{
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+    .formcontato__text{
+        padding-top: 2rem;
+    }
+    .formcontato--esquerda{
+        display: none;
+    }
+    .formcontato__input{
+        width: 100%;
+    }
+    .formcontato__title{
+        font-size: 1rem;
+    }
+    .formcontato__subtext{
+        font-size: 0.8rem;
+    }
+    
+}

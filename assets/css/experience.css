@@ -1,7 +1,7 @@
 
 /* experiencia*/
 
-section.experience {
+.experience {
     width: 82%;
     margin: 0 auto;
     padding-top: 3rem;
@@ -20,8 +20,7 @@ section.experience {
 }
 
 .experience__info {
-    margin: 0 1.55rem;
-    ;
+    margin: 0 1.55rem;;
 }
 
 .experiencia__botao--repo {
@@ -38,4 +37,36 @@ section.experience {
     width: 6rem;
     height: 3rem;
     color: #FFFFFF;
+}
+@media screen and (max-width: 1000px) {
+    .experience{
+        margin-top: -1rem;
+    }
+    .experiencie__box{
+        margin: 1rem auto;
+        width:80%;
+    }
+    .experience__section__title{
+        padding-top: 1rem;
+    }
+    .experience__title{
+
+        font-size: 1rem;
+    }
+    .experience__text{
+        font-size: 0.8rem;
+    }
+    .experiencie__box img{
+        width: 9rem;
+        margin: auto;
+    }
+    .experiencia__botao--repo{
+        margin-bottom: 1rem;
+    }
+    /* Esto da problemas cuidado no tocar XD */
+    .formcontato__img{
+        width: 100%;
+    }
+
+
 }

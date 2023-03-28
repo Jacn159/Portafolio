@@ -1,8 +1,8 @@
 
 /*footeer*/
 
-section.footer {
-
+.footer {
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -17,4 +17,10 @@ section.footer {
 .footer__rodape {
     display: flex;
     flex-direction: column;
+}
+@media screen and (max-width: 1000px) {
+    .footer{
+        width: 100%;
+    }
+
 }

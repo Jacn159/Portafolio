@@ -1,7 +1,7 @@
 /*Sección Menu*/
 /* Esto es el toolbar */
-section.menu {
-    padding-top: 6px;
+.menu {
+    padding-top: 0.5%;
     display: flex;
     /* Espacio entre el menú y el logo */
     justify-content: space-around;
@@ -15,23 +15,20 @@ section.menu {
     color: whitesmoke;
 }
 
-
 .menu a {
     color: whitesmoke;
 }
 
-section.menu .menu__list {
+.menu__list {
     display: flex;
-
-
 }
 
-section.menu .menu__list__item {
+.menu__list__item {
+    margin-top: 1rem;
     padding: 0 10px;
 
 }
-
-section.menu .menu__list__item :hover {
+.menu__list__item :hover {
     padding: 10px;
     margin-bottom: 10px;
     transition: .5s;
@@ -42,9 +39,74 @@ section.menu .menu__list__item :hover {
 }
 
 /* Esto es el logo */
-section.menu .menu__header {
+ .menu__header {
     display: flex;
     align-items: center;
 }
+.menu__movil{
+    display: none;
+}
+
+.menu__list__item {
+    padding: 0 10px;
+
+}
 
 
+/*Mobile*/
+@media screen and (max-width: 1280px) {
+
+
+    .menu__nav{
+        background-color: black;
+        width: 100%;
+    }
+    .menu__list{
+        width: 76%;
+        display: flex;
+        position: absolute;
+        background-color: #000;
+        top: 4.8249rem;
+        flex-direction: column;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.5s;
+        left: 0%;
+        border-bottom-right-radius:15% ;
+
+    }
+    .menu__list__item{
+        margin: 1rem 0.2%;
+    }
+    .menu__list-show {
+        opacity: 0.9;
+        pointer-events: auto;
+        position: fixed;
+    }
+    .menu__title{
+        margin-left: 1rem;
+        width: 10rem;
+    }
+
+    .menu{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: fixed;
+    }
+    .menu__header{
+        margin: 0 1rem; 
+        padding: 0;
+        
+    }
+    .menu__movil{
+        display: flex;
+    }
+    .menu__movil img{   
+        width: 40px;
+        margin-right: 1rem;
+    }
+
+
+
+}

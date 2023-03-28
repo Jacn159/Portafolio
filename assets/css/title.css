@@ -1,11 +1,9 @@
-
 /*Sección Title*/
-/* falta arreglar***************************** */
-section.title {
+.title {
     /* Espacio entre el menú y el logo */
     width: 82%;
     margin: 0 auto;
-    padding-top: 2rem;
+
     padding-bottom: 5rem;
     padding-top: 130px;
 }
@@ -21,18 +19,18 @@ section.title {
     margin-left: 2rem;
 }
 
-div.title__container .title__bio {
+.title__bio {
     font-size: 42px;
 }
 
-div.title__container .title__subsection {
+.title__subsection {
     font-size: 22px;
     color: #464646;
     font-weight: lighter;
     line-height: 1.875rem;
 }
 
-div.title__container .title__network {
+.title__network {
     display: flex;
     justify-content: space-between;
     padding-left: 0px;
@@ -49,5 +47,61 @@ div.title__container .title__network {
 .title__profile {
     width: 300px;
     height: 300px;
+
+}
+
+@media screen and (max-width: 1280px) {
+    .title {
+        width: 95%;
+    }
+
+    .title__div {  
+        display: flex;
+
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .title__container{
+        margin-left: 0px;
+        align-items: center;
+
+    }
+    .title__profile {
+        width: 150px;
+        height: 150px;
+        margin: 0;
+
+    }
+
+    .title__bio {
+        font-size: 28px;
+        line-height: 2rem;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .title__subsection {
+        font-size: 15px;
+        color: #464646;
+        font-weight: lighter;
+        line-height: 1.875rem;
+        text-align: center;
+    }
+
+    .title__network {
+        all: unset;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+
+    }
+    
+
+    .title__network__item {
+        font-size: 12px;
+        /* width: 120px; */
+    }
 
 }

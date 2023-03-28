@@ -31,8 +31,8 @@
                 <img src="assets\img\vector.png">
                 <h3 class="menu__title">Jose Aldahir Casma Nieto</h3>
             </header>
-            <nav>
-                <ul class="menu__list">
+            <nav class="menu__nav">
+                <ul class="menu__list" data-menu-active>
                     <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
                     <li class="menu__list__item"><a href="#skills">Skills</a></li>
                     <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
@@ -42,6 +42,9 @@
                 </ul>
                 <!-- <li class="menu__list__item__contato"><a href="#contacto">jcasma37@gmail.com</a></li> -->
             </nav>
+            <div class="menu__movil" >
+                <img src="assets/img/menu.png" class="icon" alt="" data-menu >
+            </div>
         </section>
 
         <!-- Sección del Header/Title/Hero -->
@@ -94,26 +97,26 @@
             <div class="skills__line">
                 <div class="skills__box html">
                     <ul>
-                        <li class="skills__img "><img src="assets\img\html.png" width="98px"></li>
+                        <li class="skills__img"><img src="assets\img\html.png" width="98px" class="htmlT"></li>
                         <li class="skills__name"> HTML5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box js">
                     <ul>
-                        <li class="skills__img"> <img src="assets\img\js.png" alt="" width="76px" height="100px"></li>
+                        <li class="skills__img "> <img src="assets\img\js.png" alt="" width="76px" height="100px" class="jsT"></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
-                <div class="skills__box css">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\img\css.png" alt="" width="74px" height="98px"> </li>
+                <div class="skills__box css">    
+                    <ul> 
+                        <li class="skills__img "> <img src="assets\img\css.png" alt="" width="74px" height="98px" class="cssT"> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>
                 <div class="skills__box vue">
                     <ul>
-                        <li class="skills__img"> <img src="assets\img\vue.png" alt="" width="90px"></li>
+                        <li class="skills__img "> <img src="assets\img\vue.png" alt="" width="90px" class="vueT"></li>
                         <li class="skills__name">Vue JS</li>
                     </ul>
                 </div>
@@ -121,14 +124,14 @@
                 <div class="skills__box node">
                     <ul>
                         <li class="skills__img"><img src="assets\img\node.png" alt="" width="80px" height="50px"
-                                style="margin-bottom: 15px;"></li>
+                                style="margin-bottom: 15px;" class="nodeT"></li>
                         <li class="skills__name">Node JS</li>
                     </ul>
                 </div>
 
                 <div class="skills__box react">
                     <ul>
-                        <li class="skills__img"> <img src="assets\img\react.png" alt="" width="100px"> </li>
+                        <li class="skills__img"> <img src="assets\img\react.png" alt="" width="100px" class="reactT"> </li>
                         <li class="skills__name">React JS</li>
                     </ul>
                 </div>
@@ -236,7 +239,7 @@
 
         <!-- Sección de Experiencia Profesional/Proyectos-->
         <section class="experience" id="xp">
-            <h2 class="experience__section__title">Experiencia Profissional</h2>
+            <h2 class="experience__section__title">Experiencia Profesional</h2>
             <div class="experiencie__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
                 <img class="experience__img" src="assets\img\decod_print.png">
@@ -356,5 +359,5 @@
     <!-- Script del documento JavaScript -->
     <script src="validacion.js"></script>
 </body>
-
+<script src="assets/javascript.js"></script>
 </html>

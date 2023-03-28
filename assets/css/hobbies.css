@@ -1,7 +1,6 @@
 
 /*Sección Hobbies*/
-
-section.hobbies {
+.hobbies {
     width: 82%;
     margin: 0 auto;
 }
@@ -24,14 +23,6 @@ section.hobbies {
     display: flex;
     justify-content: space-around;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -83,3 +74,25 @@ section.hobbies {
 
 }
 
+@media screen and (max-width: 500px) {
+
+    .hobbies{
+        margin-top: -4rem;
+    }
+    .hobbies__title{
+        padding-top: 5rem;
+    }
+    .hobbies__line{
+        flex-wrap: wrap;
+    }
+    .hobbies__box{
+        width: 40%;
+        height: 40%;
+    }
+    .hobbies__img {
+        margin-bottom: 0;
+        width: 10rem;
+        height: 7.5rem;
+    
+    }
+}

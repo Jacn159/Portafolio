@@ -24,7 +24,7 @@ section.academic {
 }
 
 .academic__courses__box {
-    margin: 0 3rem;
+    margin: 0 1rem;
 }
 
 .academic__courses__item__img {
@@ -35,4 +35,17 @@ section.academic {
     height: 250px;
     width: 270px;
 
+}
+@media screen and (max-width: 1280px) {
+    .academic__title{
+        padding-top: 1rem;
+
+        text-align: center;
+    }
+    .academic__courses{
+        flex-wrap: wrap;
+    }
+    .academic__courses__box{
+        margin-left:-1rem;
+    }
 }

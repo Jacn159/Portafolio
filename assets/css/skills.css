@@ -1,7 +1,7 @@
 
 /* Seccion Skills */
 
-section.skills {
+.skills {
     width: 82%;
     margin: 0 auto;
 }
@@ -21,7 +21,8 @@ section.skills .skills__line {
 
 }
 .skills__img img{
-    margin: 0;
+    margin-left: -1.5rem;
+    
 }
 .skills__box {
     background-color: #FFFFFF;
@@ -69,5 +70,49 @@ section.skills .skills__line {
 
 .skills__name {
     text-align: center;
-    padding-right: 1.07rem;
+    padding-right: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .skills{
+        margin-top: -3rem;
+    }
+    .skills__line {
+        flex-wrap: wrap;
+    }   
+    .skills__box {
+        margin-bottom: 1rem;
+        display: flex;
+        width: 8rem;
+        height: 8rem;
+        
+    }
+    .skills__title{
+        padding-top: 5rem;
+    }
+    .jsT{
+        width: 50px;
+        height: 70px;
+    }
+    .htmlT{
+        width: 70px;
+    }
+    .cssT{
+        width: 52px;
+        height: 72px;
+    }
+    .vueT{
+        width: 65px;
+    }
+    .reactT{
+        width: 70px;
+    }
+
+    .skills__name{
+        text-align: center;
+        font-size: 13px;
+        margin-left: -2%;
+        margin-bottom: 1rem;
+    }
 }
